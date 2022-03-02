@@ -112,7 +112,8 @@ header {
 
 .book-cards {
   width: 370px;
-  height: 415px;
+  min-height: 415px;
+  height: fit-content;
   padding: 40px;
   position: relative;
 
@@ -144,6 +145,7 @@ header {
     margin-bottom: 10px;
     font-size: 12px;
     letter-spacing: 0.2em;
+    text-transform: uppercase;
   }
 
   .title {
