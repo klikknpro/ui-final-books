@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -47,4 +49,14 @@ select {
 }
 
 /* CSS reset */
+/*
+regular 400;
+bold 700;
+*/
+/* font-family: 'Overpass', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+:root {
+  --primary: #f8f7f3;
+  --secondary: #1a24fb;
+}
 /*# sourceMappingURL=style.css.map */

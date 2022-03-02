@@ -46,3 +46,19 @@ select {
 }
 
 /* CSS reset */
+
+/*
+regular 400;
+bold 700;
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600;700&display=swap");
+/* font-family: 'Overpass', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+/* font-family: 'Montserrat', sans-serif; */
+
+:root {
+  --primary: #f8f7f3;
+  --secondary: #1a24fb;
+}
