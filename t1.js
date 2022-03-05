@@ -50,30 +50,3 @@ const books = [
     text: "At first, only a few things are known about the celestial object that astronomers dub Rama. It is huge, weighing more than ten trillion tons. And it is hurtling through the solar system at an inconceivable speed. Then a space probe confirms the unthinkable: Rama is no natural object...",
   },
 ];
-
-const bookCard = (book, i) => {
-  return `
-    <article class="book-cards">
-      <p class="index">${i + 1}</p>
-      <div class="content">
-        <p class="sub">${book.sub}</p>
-        <h2 class="title">${book.title}</h2>
-        <p class="text">${book.text}</p>
-      </div>
-      <button>read more
-      <span class="material-icons arrow-icon"> arrow_forward </span>
-      </button>
-    </article>
-  `;
-};
-
-function init() {
-  const flexboxContainer = document.querySelector(".flexbox-container");
-
-  for (let i = 0; i < books.length; i++) {
-    const book = books[i];
-    flexboxContainer.insertAdjacentHTML("beforeend", bookCard(book, i));
-  }
-}
-
-window.addEventListener("load", init);
